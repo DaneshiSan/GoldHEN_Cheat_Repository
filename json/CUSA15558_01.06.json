@@ -1,0 +1,49 @@
+{
+  "name": "Ghostbusters: The Video Game Remastered",
+  "id": "CUSA15558",
+  "version": "01.06",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Max Team Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2D595D",
+          "on": "41C7842468B800000000C8429090",
+          "off": "C5FA5CC1C4C17A11842468B80000"
+        }
+      ]
+    },
+    {
+      "name": "Deactivate Pack Overheating",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2CEAD3",
+          "on": "C5F057C9",
+          "off": "C5E857D2"
+        }
+      ]
+    },
+    {
+      "name": "Max Money (on purchase)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "518381",
+          "on": "C78050FC0400286B6E4EE970F2FFFF",
+          "off": "909090909090909090909090909090"
+        },
+        {
+          "offset": "5175F8",
+          "on": "E9840D0000909090",
+          "off": "C5FA118050FC0400"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Reddevil82_9.00"
+  ]
+}
